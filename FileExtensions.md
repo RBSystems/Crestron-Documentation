@@ -2,7 +2,7 @@
 
 Some file extensions listed are used by multiple applications.
 
-## SIMPL Windows ##
+## SIMPL Windows (Symbol Intensive Master Programming Language) ##
 <table>
 <tr>
 <td width="10%">Extension</td>
@@ -26,7 +26,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.cmc</td>
-<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time I believe SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevent the editor from opening</td>
+<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time I believe SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevent the editor from opening  them</td>
 </tr>
 
 <tr>
@@ -71,11 +71,11 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>SPlsWork (folder)</td>
-<td>Editor and Compiler temp directory. I believe the editor may use this during program load but it's definitely used by the compiler. It's a good practice to delete this folder. Do not archive as it is automatically created at compile time. If SIMPL Windows is crashing during compile, delete it and then try to recompile.</td>
+<td>Editor and Compiler temp directory. I believe the editor may use this during program load but it's definitely used by the compiler. It's a good practice to delete this folder. If you sync source directories between computers do not include this folder! Do not archive the folder as it is automatically created at compile time. If SIMPL Windows is crashing during compile, delete it and then try to recompile.</td>
 </tr>
 </table>
 
-## VTPro-e ##
+## VTPro-e (GUI Design) ##
 <table>
 <tr>
 <td width="10%">Extension</td>
@@ -93,13 +93,18 @@ Some file extensions listed are used by multiple applications.
 </tr>
 
 <tr>
+<td>.c3prj.hash</td>
+<td>Contains date/time of project compile for Core3 VTPro projects</td>
+</tr>
+
+<tr>
 <td>.hex</td>
 <td>Compiled binary version of project used on older touch panels</td>
 </tr>
 
 </table>
 
-## System Builder ##
+## System Builder (Control System IDE) ##
 <table>
 <tr>
 <td width="10%">Extension</td>
@@ -117,7 +122,7 @@ Some file extensions listed are used by multiple applications.
 </tr>
 </table>
 
-## D3 Pro (Lighting, Security, Shades) ##
+## D3 Pro (Control IDE for Lighting, Security, Shades) ##
 <table>
 <tr>
 <td width="10%">Extension</td>
