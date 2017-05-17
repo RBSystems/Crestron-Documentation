@@ -115,7 +115,7 @@ Some file extensions listed are used by multiple applications.
 </table>
 
 ## System Builder (Control System IDE) ##
-#### System uses SIMPL, VTPro-e, and Engraver so will generate some of the same file extensions found in those programs in addition to these. ####
+#### System Builder uses SIMPL, VTPro-e, and Engraver so will generate some of the same file extensions found in those programs in addition to these. ####
 <table>
 <tr>
 <td width="10%">Extension</td>
@@ -134,7 +134,7 @@ Some file extensions listed are used by multiple applications.
 </table>
 
 ## D3 Pro (Control IDE for Lighting, Security, Shades) ##
-#### System uses SIMPL, VTPro-e, and Engraver so will generate some of the same file extensions found in those programs in addition to these. ####
+#### D3 Pro uses SIMPL, VTPro-e, and Engraver so will generate some of the same file extensions found in those programs in addition to these. ####
 <table>
 <tr>
 <td width="10%">Extension</td>
