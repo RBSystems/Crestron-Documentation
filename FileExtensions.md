@@ -61,7 +61,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.sig</td>
-<td>Signal file. Signal data file created by compiler used by Toolbox's debugger</td>
+<td>Signal file. Signal data file created by compiler and used by Toolbox's debugger</td>
 </tr>
 
 <tr>
