@@ -2,4 +2,6 @@
 
 Corrections, additions and pull-requests are welcome.
 
-[File Extensions](FileExtensions.md)
+
+- [File Extensions](FileExtensions.md)
+- [Crestron Security](DeviceSecurity.md)
