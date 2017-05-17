@@ -190,7 +190,7 @@ Some file extensions listed are used by multiple applications.
 
 </table>
 
-## Firmware ##
+## Firmware Updates ##
 <table>
 <tr>
 <td width="10%">Extension</td>
@@ -203,7 +203,42 @@ Some file extensions listed are used by multiple applications.
 </tr>
 
 <tr>
+<td>.bin</td>
+<td></td>
+</tr>
+
+<tr>
+<td>.cos</td>
+<td></td>
+</tr>
+
+<tr>
+<td>.csf</td>
+<td></td>
+</tr>
+
+<tr>
+<td>.csz</td>
+<td></td>
+</tr>
+
+<tr>
 <td>.cuz</td>
+<td></td>
+</tr>
+
+<tr>
+<td>.upg</td>
+<td></td>
+</tr>
+
+<tr>
+<td>.upz</td>
+<td></td>
+</tr>
+
+<tr>
+<td>.pkg</td>
 <td></td>
 </tr>
 
