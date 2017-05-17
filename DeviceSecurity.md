@@ -2,7 +2,7 @@
 
 Please don't shoot yourself in the foot and blindly enter these commands. You need to know what features you need enabled on a given project and what you can safely turn off/configure. 
 
-Some commands of these commands only work on procs, some only work on touch screens, and it all depends on firmware versions you are running. But, if you want to secure your system, these commands are worth investigating/knowing about:
+Some of these commands only work on procs, some only work on touch screens, and it all depends on firmware versions you are running. But, if you want to secure your system, these commands are worth investigating/knowing about:
 
 - SETPASSWORDRULE -LENGTH:## -ALL
 - AUTH ON
