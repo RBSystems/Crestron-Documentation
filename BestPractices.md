@@ -13,8 +13,11 @@ There is probably a 50/50 split about upgrading firmware and as such, the best p
 #### 2. Program Organization ####
 #### 3. Signal Naming ####
 #### 4. Comments ####
+#### 5. Documenting Changes ####
 
 ----------
 ### VTPro-e Best Practices ###
 #### 1. Project Name ####
 #### 2. Project Organization ####
+#### 3. Indicating State ####
+Indicating state through color alone is not a best practice. Color blind users will not be able to operate the system.
