@@ -26,7 +26,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.cmc</td>
-<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time I believe SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevent the editor from opening  them</td>
+<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time I believe SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevents the editor from opening  them</td>
 </tr>
 
 <tr>
