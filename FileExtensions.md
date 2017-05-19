@@ -60,6 +60,11 @@ Some file extensions listed are used by multiple applications.
 </tr>
 
 <tr>
+<td>.bin</td>
+<td>Contains SMW compiled code which will be interpreted by LogicEngine.exe</td>
+</tr>
+
+<tr>
 <td>.sig</td>
 <td>Signal file. Signal data file created by compiler and used by Toolbox's debugger</td>
 </tr>
