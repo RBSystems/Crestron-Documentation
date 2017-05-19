@@ -3,7 +3,8 @@
 Corrections, additions and pull-requests are welcome.
 
 
-- [Crestron Best Practices](BestPractices.md)
 - [File Extensions](FileExtensions.md)
+- [3-Series Application Managers](3SAppManagers.md)
+- [Crestron Best Practices](BestPractices.md)
 - [Crestron Security](DeviceSecurity.md)
 - Crestron Applications/Tools Security

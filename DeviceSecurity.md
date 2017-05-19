@@ -23,4 +23,4 @@ Some of these commands only work on procs, some only work on touch screens, and 
 - SIPENABLE OFF
 - ENTERSETUPSEQ OFF
 
-Finally, remember that authentication is not the same thing as secure channel communications. 
+Finally, remember that authentication is not the same thing as secure channel communications. You may turn authentication, but endpoints that aren't talking secure CIP would be vulnerable.
