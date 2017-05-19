@@ -1,4 +1,4 @@
-# Crestron Security #
+# Security on Crestron Devices #
 
 Please don't shoot yourself in the foot and blindly enter these commands. You need to know what features you need enabled on a given project and what you can safely turn off/configure. 
 
