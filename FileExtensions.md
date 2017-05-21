@@ -80,6 +80,20 @@ Some file extensions listed are used by multiple applications.
 </tr>
 </table>
 
+## Visual Studio 2008 with S# Libraries##
+<table>
+<tr>
+<td width="10%">Extension</td>
+<td width="90%">File Description</td>
+</tr>
+
+<tr>
+<td>.clz</td>
+<td>C# library zip package</td>
+</tr>
+</table>
+
+
 ## VTPro-e (GUI Design) ##
 <table>
 <tr>
