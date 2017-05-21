@@ -80,7 +80,7 @@ Some file extensions listed are used by multiple applications.
 </tr>
 </table>
 
-## Visual Studio 2008 with S# Libraries##
+## Visual Studio 2008 with S# Libraries ##
 <table>
 <tr>
 <td width="10%">Extension</td>
