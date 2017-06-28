@@ -13,7 +13,7 @@ Upgrading on release day is not a best practice unless you are working directly 
 
 ----------
 ### Cresnet Best Practices ###
- - Crestron recommends that you keep the total number of devices on one segment or leg of a Cresnet run to a maximum of 20 devices. Some people put over 100 devices on a Cresnet segment. There are two issues with this: the RS-485 stack is going to request information from each of the devices and by the time it cycles back around to the devices which it has traffic for, latency can become an issue.  Larger Cresnet networks can also introduce intermittent problems that are hard to troubleshoot. The new Crestron bridge devices explicitly limit the number of devices you can put on a run to less than 30.
+ - Crestron recommends that you keep the total number of devices on one segment or leg of a Cresnet run to a maximum of 20 devices. Some people put over 100 devices on a Cresnet segment. There are two issues with this: the RS-485 stack is going to request information from each of the devices and by the time it cycles back around to the devices which it has traffic for, latency can become an issue.  Larger Cresnet networks can also introduce intermittent problems that are hard to troubleshoot. The new Crestron bridge devices explicitly limits the number of devices you can put on a run to less than 30.
 
 ----------
 
