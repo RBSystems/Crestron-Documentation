@@ -26,7 +26,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.cmc</td>
-<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time I believe SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevents the editor from opening  them</td>
+<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time I believe SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevents the SIMPL Windows editor from opening them</td>
 </tr>
 
 <tr>
@@ -89,7 +89,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.clz</td>
-<td>C# library zip package</td>
+<td>C# library zip format package</td>
 </tr>
 </table>
 
@@ -230,7 +230,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.puf</td>
-<td></td>
+<td>3-Series processor operating system, firmware update package</td>
 </tr>
 
 <tr>
@@ -255,7 +255,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.cuz</td>
-<td></td>
+<td>2-Series processor operating system, firmware update package</td>
 </tr>
 
 <tr>
@@ -265,7 +265,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.upz</td>
-<td></td>
+<td>X-Series processor operating system, firmware update package</td>
 </tr>
 
 <tr>
