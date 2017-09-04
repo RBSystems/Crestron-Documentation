@@ -14,7 +14,7 @@
   - Upgrade all devices on a new job to the current firmware revision.
   - On older jobs, if the firmware has been out for 12 months or more, I upgrade without concern on non-proc devices. If the device is a proc and the system has been stable for 6 months, and I am not uploading and updated program, I do not upgrade the firmware - with the caveat that if the proc exhibits the same instability every 3-6 months, I upgrade the firmware. 
   - If I am making program changes and uploading them to the proc, I update the proc firmware. 
- - **Avoid using the PUF tool unless the device you are upgrading requires it.** If you must use the PUF tool verify that you have a solid connection and a stable network before proceeding. Pinging the device for a while to make sure there are no lost packets would be one way of testing the network stability: "ping [ip] -t" and then CTRL-c to stop the ping when you are satisified. 
+ - **Avoid using the PUF tool unless the device you are upgrading requires it.** If you must use the PUF tool verify that you have a solid connection and a stable network before proceeding. Pinging the device for a while to make sure there are no lost packets would be one way of testing the network stability: "ping [ip] -t" and then CTRL-c to stop the ping when you are satisfied. 
  - **Best practice is to FTP the file onto the device and issue the PUF command, on devices where the PUF command is supported.**
 
 ----------
