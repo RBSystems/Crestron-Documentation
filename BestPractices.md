@@ -24,8 +24,7 @@
 ----------
 ### Networking Best Practices ###
  - Isolate the controls network from other networks to the extent possible.
- - Develop a network standards document to segregate device types on the subnet(s) involved. For example: routing devices, network switches, processors, touchpanels with a DHCP range at the bottom of the subnet etc... This makes device location, troubleshooting and maintenance much easier.
-
+ - Develop a network standards document to *segregate* device types on the subnet(s) involved. For example: first you would have routing devices, some empty ip slots, then network switches, again some empty IP slots, processors, empty IP slots, touchpanels, etc... with a DHCP range at the bottom of the subnet. This makes device location, troubleshooting and maintenance much easier.
 
 ----------
 
