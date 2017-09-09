@@ -235,12 +235,12 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.btl, .csf*, .hex, .upg</td>
-<td>These are binary firmware, usually hex encoded with a certain number of bytes per line, that are sent to the device, line by line. The first part of the line may contain a command + memory location or offset to write to. The file *may* contain a header with a line count or checksum. The device has just enough smarts that it can go into a firmware upgrade mode, receive each line, finally receive a line containing an EOF marker or "complete" command. The device is rebooted and the new firmware is loaded.</td>
+<td>These are binary firmware, usually hex encoded with a certain number of bytes per line, that are sent to the device, line by line. The first part of the line may contain a command + memory location or offset to write to. The file <i>may</i> contain a header with a line count or checksum. The device has just enough smarts that it can go into a firmware upgrade mode, receive each line, finally receive a line containing an EOF marker or "complete" command. The device is rebooted and the new firmware is loaded.</td>
 </tr>
 
 <tr>
 <td>.bin, .csf*, .cos</td>
-<td>Firmware upgrade binary-encoded</td>
+<td>Firmware upgrade binary format</td>
 </tr>
 
 <tr>
@@ -250,12 +250,12 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.cuz</td>
-<td>2-Series processor operating system, firmware update package</td>
+<td>2-Series processor operating system, firmware update file package</td>
 </tr>
 
 <tr>
 <td>.img</td>
-<td>ROM file system upgrade binary</td>
+<td>Binary ROM file system upgrade</td>
 </tr>
 
 <tr>
@@ -265,7 +265,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.puf</td>
-<td>Firmware file update package. 3-Series processor operating systems come in the .puf format but many other device types, including touchscreens and multi-device PUF files for the DM products, may come in this format. See the note about using the PUF tool on the "Best Practices" page.</td>
+<td>Firmware file update package. 3-Series processor operating systems come in the .puf format but many other device types, including touchscreens and multi-device PUF files for the DM products may come in this format. See the note about using the PUF tool on the "Best Practices" page.</td>
 </tr>
 
 <tr>
@@ -275,7 +275,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.zip</td>
-<td>Zip compressed file</td>
+<td>Zip compressed file package</td>
 </tr>
 
 </table>
