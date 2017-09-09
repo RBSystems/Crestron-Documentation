@@ -260,7 +260,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.puf</td>
-<td>Firmware file update package. 3-Series processor operating systems come in the .puf format but many other device type, including touchscreens and multi-device PUF files for the DM products, may come in this format. See the note about using the PUF tool on the [./BestPractices.md](./BestPractices.md "Best Practices") page</td>
+<td>Firmware file update package. 3-Series processor operating systems come in the .puf format but many other device type, including touchscreens and multi-device PUF files for the DM products, may come in this format. See the note about using the PUF tool on the "Best Practices" page.</td>
 </tr>
 
 <tr>
