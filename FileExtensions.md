@@ -16,22 +16,22 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.smw.asv</td>
-<td>Auto-saved version - Backup copy of .smw automatically created by loading an SMW and by timer based auto-save</td>
+<td>Auto-saved version - Backup copy of .smw automatically created by loading an SMW and by timer based auto-save.</td>
 </tr>
 
 <tr>
 <td>.umc</td>
-<td>User macro. User created module (library) that can be included in SMW projects. Edited using SIMPL Windows editor. Normally text but encoded into binary format if password protected</td>
+<td>User macro. User created module (library) that can be included in SMW projects. Edited using SIMPL Windows editor. Normally plain-text but encoded into binary format if password protected.</td>
 </tr>
 
 <tr>
 <td>.cmc</td>
-<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time I believe SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevent the SIMPL Windows editor from opening them</td>
+<td>Crestron Macro. Crestron supplied module (library). Normally text but encoded in binary format if password protected. At one time, I was told, SIMPL Windows would open these files, if they were not password protected, but the current versions detect a file "signature" and prevent the SIMPL Windows editor from opening them.</td>
 </tr>
 
 <tr>
 <td>.usp</td>
-<td>SIMPL+ module. Edited using the SIMPL+ editor. Normally text but encoded in binary format if password protected</td>
+<td>SIMPL+ module. Edited using the SIMPL+ editor. Normally text but encoded in binary format if password protected.</td>
 </tr>
 
 <tr>
@@ -41,17 +41,17 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.rsd</td>
-<td>Remote system definition file. Used to setup intersystem communications between two programs running on the same or different processors</td>
+<td>Remote system definition file. Used to setup intersystem communications between two programs running on the same or different processors.</td>
 </tr>
 
 <tr>
 <td>.lpz</td>
-<td>Series 3 proc program zip file. Contains compiler built application package with .bin application, DLLs and metadata required to setup hardware and execution environment. May optionally contain an archive of the program source code if archive option is active at compile-time. The .dip file contains IP ID data that can restored using Toolbox</td>
+<td>Series 3 proc program zip file. Contains compiler built application package with .bin application, DLLs and metadata required to setup hardware and execution environment. May optionally contain an archive of the program source code if archive option is active at compile-time. The .dip file contains IP ID data that can restored using Toolbox.</td>
 </tr>
 
 <tr>
 <td>.lpz.hash</td>
-<td>Contains date/time of application compile</td>
+<td>Contains date/time of application compile.</td>
 </tr>
 
 <tr>
@@ -61,17 +61,17 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.bin</td>
-<td>Contains SMW compiled code which will be interpreted by LogicEngine.exe</td>
+<td>Contains SMW compiled code which will be interpreted by LogicEngine.exe.</td>
 </tr>
 
 <tr>
 <td>.sig</td>
-<td>Signal file. Signal data file created by compiler and used by Toolbox's debugger</td>
+<td>Signal file. Signal data file created by compiler and used by Toolbox's debugger.</td>
 </tr>
 
 <tr>
 <td>.smft</td>
-<td>SIMPL or System device manifest (?). Created by compiler and lists devices, device IP IDs for Cresnet, Ethernet and RF</td>
+<td>SIMPL or System device manifest (?). Created by compiler and lists devices, device IP IDs for Cresnet, Ethernet and RF.</td>
 </tr>
 
 <tr>
@@ -94,7 +94,7 @@ Some file extensions listed are used by multiple applications.
 </table>
 
 
-## VTPro-e (GUI Design) ##
+## VisionTools Pro-e or VTPro-e (GUI Design) ##
 <table>
 <tr>
 <td width="10%">Extension</td>
@@ -108,7 +108,7 @@ Some file extensions listed are used by multiple applications.
 
 <tr>
 <td>.vtz</td>
-<td>Compiled binary version of project</td>
+<td>Compiled file package version of project including all assets such as images, sounds, supporting .swf files in Adobe Air (TSX panels, XPanel) and Flash format (for flash based devices), action scripts and possibly fonts. The original .vtp is not include in this compiled file.</td>
 </tr>
 
 <tr>
@@ -229,28 +229,18 @@ Some file extensions listed are used by multiple applications.
 </tr>
 
 <tr>
-<td>.puf</td>
-<td>3-Series processor operating system, firmware update package</td>
+<td>.btl, .csf*, .hex, .upg</td>
+<td>These are binary firmware, usually hex encoded with a certain number of bytes per line, that are sent to the device, line by line. The first part of the line may contain a command + memory location or offset to write to. The file *may* contain a header with a line count or checksum. The device has just enough smarts that it can go into a firmware upgrade mode, receive each line, finally receive a line containing an EOF marker or "complete" command. The device is rebooted and the new firmware is loaded.</td>
 </tr>
 
 <tr>
-<td>.bin</td>
-<td></td>
-</tr>
-
-<tr>
-<td>.cos</td>
-<td></td>
-</tr>
-
-<tr>
-<td>.csf</td>
-<td></td>
+<td>.bin, .csf*, .cos</td>
+<td>Firmware upgrade binary-encoded</td>
 </tr>
 
 <tr>
 <td>.csz</td>
-<td></td>
+<td>Compressed firmware file package</td>
 </tr>
 
 <tr>
@@ -259,8 +249,18 @@ Some file extensions listed are used by multiple applications.
 </tr>
 
 <tr>
-<td>.upg</td>
-<td></td>
+<td>.img</td>
+<td>ROM file system upgrade binary</td>
+</tr>
+
+<tr>
+<td>.pif</td>
+<td>Firmware upgrade file package</td>
+</tr>
+
+<tr>
+<td>.puf</td>
+<td>Firmware file update package. 3-Series processor operating systems come in the .puf format but other devices, including multi-device PUF files for the DM products, may come in this format.</td>
 </tr>
 
 <tr>
@@ -269,13 +269,8 @@ Some file extensions listed are used by multiple applications.
 </tr>
 
 <tr>
-<td>.pkg</td>
-<td></td>
-</tr>
-
-<tr>
 <td>.zip</td>
-<td></td>
+<td>Zip compressed file</td>
 </tr>
 
 </table>
