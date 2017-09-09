@@ -75,6 +75,11 @@ Some file extensions listed are used by multiple applications.
 </tr>
 
 <tr>
+<td>.zig</td>
+<td>Zipped .sig file retrieved from a program App slot by SIMPL debugger</td>
+</tr>
+
+<tr>
 <td>SPlsWork (folder)</td>
 <td>Editor and Compiler temp directory. I believe the editor may use this during program load but it's definitely used by the compiler. It's a good practice to delete this folder. If you sync source directories between computers do not include this folder! Do not archive the folder as it is automatically created at compile time. If SIMPL Windows is crashing during compile, delete this folder and then try to recompile.</td>
 </tr>
